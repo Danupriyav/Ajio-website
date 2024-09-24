@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ajio</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Ajio-->
+    <aji class="ajibar">
+        <h1>Ajio</h1>
+
+        <div class="ajibar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+        
+        <div class="ajibar-menu-toggle" onclick="showAjibar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </aji>
+
+    <!--Side Ajibar-->
+    <div class="side-ajibar">
+        <p style="text-align: right;" onclick="closeajibar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-ajibar-links"></div>
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="sidenavbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+   
+<!--Foooter-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Ajio</h2>
+            <p>AJIO offers us a user-friendly interface, a wide range of marketing tools, and access to a vast customer base. With AJIO's seamless order management system and efficient logistics support</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook"style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+    <p>@ 2024 Ajio.com</p>
+</div>
+
+       <script src="collection.js"></script>
+
+</body>
+
+</html>
